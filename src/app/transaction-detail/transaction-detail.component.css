@@ -1,0 +1,21 @@
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  color: #022f31;
+}
+
+p {
+  margin: 10px 0 0 0;
+}
+
+button {
+  margin: 40px 0 0 0;
+  text-align: center;
+  color: #022f31;
+  background-color: #dffff7;
+  border: 2px solid #022f31;
+  border-radius: 4px;
+  cursor: pointer;
+}

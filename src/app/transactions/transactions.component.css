@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+  margin: 20px 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+th {
+  background-color: #96c4b2;
+  color: #022f31;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+
+tr {
+  background-color: #dffff7;
+  cursor: pointer;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:hover {
+  background-color: #96c3e7;
+}

@@ -1,0 +1,16 @@
+<div class="wrapper" *ngIf="transaction">
+    <h2>{{transaction.label}} {{transaction.id}} Detail</h2>
+    <div>
+        <p><b>id: </b></p>
+        <span>{{transaction.id}}</span>
+        <p><b>amount: </b></p>
+        <span>{{transaction.amount}}</span>
+        <p><b>balance: </b></p>
+        <span>{{transaction.balance}}</span>
+        <p><b>description: </b></p>
+        <span>{{transaction.description}}</span>
+        <p><b>date: </b></p>
+        <span>{{transaction.date}}</span>
+    </div>
+    <button [routerLink]="['/transactions']">Back to transactions</button>
+</div>
